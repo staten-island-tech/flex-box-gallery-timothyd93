@@ -7,10 +7,10 @@ body,
   font-size: 100%;
 }
 .parent {
-  font-size: 10px;
+  font-size: 20px;
 }
 h2 {
-  margin: 1 rem;
+  margin: 1rem;
 }
 .px-size {
   font-size: 10px;
