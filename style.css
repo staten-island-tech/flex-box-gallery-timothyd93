@@ -4,11 +4,20 @@ body,
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-size: 62.5%;
+  font-size: 100%;
 }
 .parent {
-  font-size: 500px;
+  font-size: 10px;
+}
+h2 {
+  margin: 1 rem;
 }
 .px-size {
-  font-size: 1rem;
+  font-size: 10px;
+}
+.rem size {
+  font-size: 2rem;
+}
+.em size {
+  font-size: 1em;
 }
