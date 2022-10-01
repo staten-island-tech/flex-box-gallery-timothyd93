@@ -5,9 +5,17 @@ body,
   margin: 0;
   box-sizing: border-box;
 }
+body{
+  font-family: 'Bungee Spice', cursive;
+}
+.screen{
+background-color: #f5a1a1;
+}
 .header {
   text-align: center;
-  padding: 25px;
+  padding: 20px;
+font-size: 50px;
+color:#B2560D;
 }
 .parent {
   font-size: 30px;
@@ -18,13 +26,77 @@ body,
   width: 400px;
   height: 250px;
   margin-bottom: 2%;
+  box-shadow: 2px 3px #352315;
 }
 .child1{
-  border: 1px solid red;
+  border: 3px solid #B2560D;
 }
 .child2{
-  border: 1px solid red;
+  border: 3px solid #B2560D;
 }
 .child3{
-  border: 1px solid red;
+  border: 3px solid #B2560D;
+}
+.cap{
+  height: 100px;
+  width:100px;
+  position: relative;
+  top: 30%;
+  left: 38%;
+}
+.crying{
+  height: 100px;
+  width: 100px;
+  position: relative;
+  top: 30%;
+  left: 38%;
+}
+.frog{
+  height: 100px;
+  width:100px;
+  position: relative;
+  top: 30%;
+  left: 38%;
+}
+.heart{
+  height: 100px;
+  width:100px;
+  position: relative;
+  top: 30%;
+  left: 38%;
+}
+.frowning{
+  height: 100px;
+  width:100px;
+  position:relative;
+  top: 30%;
+  left: 38%;
+}
+.laughing{
+  height: 100px;
+  width:100px;
+  position: relative;
+  top: 30%;
+  left: 38%;
+}
+.rolling{
+  height: 100px;
+  width:100px;
+  position: relative;
+  top: 30%;
+  left: 38%;
+}
+.sleeping{
+  height: 100px;
+  width:100px;
+  position: relative;
+  top: 30%;
+  left: 38%;
+}
+.thinking{
+  height: 100px;
+  width:100px;
+  position: relative;
+  top: 30%;
+  left: 38%;
 }
