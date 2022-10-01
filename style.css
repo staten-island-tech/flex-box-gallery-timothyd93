@@ -5,15 +5,19 @@ body,
   margin: 0;
   box-sizing: border-box;
 }
+.header {
+  text-align: center;
+  padding: 25px;
+}
 .parent {
   font-size: 30px;
   display: flex;
-  justify-content: space-between;
-
+  justify-content: space-around;
 }
 .child {
-  width: 28%;
-  height: 300px;
+  width: 400px;
+  height: 250px;
+  margin-bottom: 2%;
 }
 .child1{
   border: 1px solid red;
@@ -23,11 +27,4 @@ body,
 }
 .child3{
   border: 1px solid red;
-}
-.parent-mid{
-  flex-direction: ;
-  
-}
-.container {
-
 }
