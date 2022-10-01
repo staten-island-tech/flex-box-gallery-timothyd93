@@ -7,7 +7,27 @@ body,
 }
 .parent {
   font-size: 30px;
+  display: flex;
+  justify-content: space-between;
+
 }
 .child {
+  width: 28%;
+  height: 300px;
+}
+.child1{
   border: 1px solid red;
+}
+.child2{
+  border: 1px solid red;
+}
+.child3{
+  border: 1px solid red;
+}
+.parent-mid{
+  flex-direction: ;
+  
+}
+.container {
+
 }
