@@ -18,23 +18,14 @@ font-size: 50px;
 color:#B2560D;
 }
 .parent {
-  font-size: 30px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .child {
   width: 400px;
   height: 250px;
   margin-bottom: 2%;
-  box-shadow: 2px 3px #352315;
-}
-.child1{
-  border: 3px solid #B2560D;
-}
-.child2{
-  border: 3px solid #B2560D;
-}
-.child3{
+  box-shadow: 3px 3px #352315;
   border: 3px solid #B2560D;
 }
 .cap{
