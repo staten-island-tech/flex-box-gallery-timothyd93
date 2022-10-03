@@ -5,17 +5,17 @@ body,
   margin: 0;
   box-sizing: border-box;
 }
-body{
-  font-family: 'Bungee Spice', cursive;
+body {
+  font-family: "Bungee Spice", cursive;
 }
-.screen{
-background-color: #f5a1a1;
+.screen {
+  background-color: #f5a1a1;
 }
 .header {
   text-align: center;
   padding: 20px;
-font-size: 50px;
-color:#B2560D;
+  font-size: 50px;
+  color: #b2560d;
 }
 .parent {
   display: flex;
@@ -25,68 +25,69 @@ color:#B2560D;
   width: 400px;
   height: 250px;
   margin-bottom: 2%;
-  box-shadow: 3px 3px #352315;
-  border: 3px solid #B2560D;
+  box-shadow: 4px 4px #352315;
+  border: 3px solid #b2560d;
+  border-radius: 25px;
 }
-.cap{
-  height: 100px;
-  width:100px;
-  position: relative;
-  top: 30%;
-  left: 38%;
-}
-.crying{
+.cap {
   height: 100px;
   width: 100px;
   position: relative;
   top: 30%;
   left: 38%;
 }
-.frog{
+.crying {
   height: 100px;
-  width:100px;
+  width: 100px;
   position: relative;
   top: 30%;
   left: 38%;
 }
-.heart{
+.frog {
   height: 100px;
-  width:100px;
+  width: 100px;
   position: relative;
   top: 30%;
   left: 38%;
 }
-.frowning{
+.heart {
   height: 100px;
-  width:100px;
-  position:relative;
-  top: 30%;
-  left: 38%;
-}
-.laughing{
-  height: 100px;
-  width:100px;
+  width: 100px;
   position: relative;
   top: 30%;
   left: 38%;
 }
-.rolling{
+.frowning {
   height: 100px;
-  width:100px;
+  width: 100px;
   position: relative;
   top: 30%;
   left: 38%;
 }
-.sleeping{
+.laughing {
   height: 100px;
-  width:100px;
+  width: 100px;
   position: relative;
   top: 30%;
   left: 38%;
 }
-.thinking{
+.rolling {
   height: 100px;
-  width:100px;
+  width: 100px;
+  position: relative;
+  top: 30%;
+  left: 38%;
+}
+.sleeping {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  top: 30%;
+  left: 38%;
+}
+.thinking {
+  height: 100px;
+  width: 100px;
   position: relative;
   top: 30%;
   left: 38%;
