@@ -20,6 +20,8 @@ body {
 .parent {
   display: flex;
   justify-content: space-evenly;
+  position: relative;
+
 }
 .child {
   width: 400px;
@@ -32,63 +34,83 @@ body {
 .cap {
   height: 100px;
   width: 100px;
-  position: relative;
   top: 30%;
   left: 38%;
+z-index: 2;
 }
 .crying {
   height: 100px;
   width: 100px;
-  position: relative;
   top: 30%;
   left: 38%;
 }
 .frog {
   height: 100px;
   width: 100px;
-  position: relative;
   top: 30%;
   left: 38%;
 }
 .heart {
   height: 100px;
   width: 100px;
-  position: relative;
   top: 30%;
   left: 38%;
 }
 .frowning {
   height: 100px;
   width: 100px;
-  position: relative;
   top: 30%;
   left: 38%;
 }
 .laughing {
   height: 100px;
   width: 100px;
-  position: relative;
   top: 30%;
   left: 38%;
 }
 .rolling {
   height: 100px;
   width: 100px;
-  position: relative;
   top: 30%;
   left: 38%;
 }
 .sleeping {
   height: 100px;
   width: 100px;
-  position: relative;
   top: 30%;
   left: 38%;
 }
 .thinking {
   height: 100px;
   width: 100px;
-  position: relative;
   top: 30%;
   left: 38%;
+}
+.cap:hover{
+  transform: scale(1.5);
+}
+
+.crying:hover{
+  transform: scale(1.5);
+}
+.frog:hover{
+  transform: scale(1.5);
+}
+.frowning:hover{
+  transform: scale(1.5);
+}
+.heart:hover{
+  transform: scale(1.5);
+}
+.laughing:hover{
+  transform: scale(1.5);
+}
+.rolling:hover{
+  transform: scale(1.5);
+}
+.sleeping:hover{
+  transform: scale(1.5);
+}
+.thinking:hover{
+  transform: scale(1.5);
 }
