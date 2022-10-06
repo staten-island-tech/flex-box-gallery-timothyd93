@@ -85,31 +85,50 @@ body {
   top: 30%;
   left: 38%;
 }
+@keyframes test {
+   0%{
+    left:20%;
+   }
+   25%{
+    bottom:20%;
+   }
+   50%{
+right:20%;
+   }
+   75%{
+top:20%;
+   }
+   100%{
+    left:20%;
+    bottom:20%;
+   }
+   
+   
+} 
 .cap:hover{
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
-
 .crying:hover{
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 .frog:hover{
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 .frowning:hover{
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 .heart:hover{
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 .laughing:hover{
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 .rolling:hover{
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 .sleeping:hover{
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 .thinking:hover{
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
