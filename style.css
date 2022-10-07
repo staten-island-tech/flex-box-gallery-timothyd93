@@ -54,6 +54,7 @@ body {
   width: 100px;
   top: 30%;
   left: 38%;
+  animation:test 2s infinite;
 }
 .frowning {
   height: 100px;
@@ -85,26 +86,6 @@ body {
   top: 30%;
   left: 38%;
 }
-@keyframes test {
-   0%{
-    left:20%;
-   }
-   25%{
-    bottom:20%;
-   }
-   50%{
-right:20%;
-   }
-   75%{
-top:20%;
-   }
-   100%{
-    left:20%;
-    bottom:20%;
-   }
-   
-   
-} 
 .cap:hover{
   transform: scale(1.2);
 }
@@ -131,4 +112,15 @@ top:20%;
 }
 .thinking:hover{
   transform: scale(1.2);
+}
+@keyframes test {
+  0%{
+    bottom: 50px;
+  }
+  50%{ top: 50px;
+
+  }
+  100%{ bottom: 100px;
+
+  }
 }
