@@ -97,17 +97,17 @@ body {
 }
 .cap:hover {
   transform: scale(1.2);
+  background-color: green;
 }
 .crying:hover {
   transform: scale(1.2);
+  background-color: blue;
 }
 .frog:hover {
   transform: scale(1.2);
+  background-color: #432616;
 }
 .frowning:hover {
-  transform: scale(1.2);
-}
-.heart:hover {
   transform: scale(1.2);
 }
 .laughing:hover {
@@ -121,19 +121,20 @@ body {
   transform: scale(1.2);
 }
 .thinking:hover {
-    transform:rotate(-20deg)
+  transform:rotate(-20deg)
 }
 @keyframes test {
   0% {
-    bottom: 50px;
+transform: scale(1);
   }
   50% {
-    top: 50px;
+transform: scale(1.2);
   }
   100% {
-    bottom: 100px;
+transform: scale(1);
   }
 }
 .header:hover {
   transform: scale(0.9);
+  background-color: rgb(57, 255, 20)
 }
