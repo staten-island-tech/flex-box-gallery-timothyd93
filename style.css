@@ -121,9 +121,15 @@ body {
   top: 10%;
   left: 32%;
 }
-@media (max-width:500px) {
+@media (max-width:525px) {
   .child {width:300px;}
   .image {position:relative;
   top: 12%;
 left: 25%;}
+}
+@media (max-width:850px) {
+  .child {margin-bottom: 40px;}
+}
+@media (max-width:1200px) {
+
 }
